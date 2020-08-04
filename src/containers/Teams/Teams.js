@@ -1,7 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from "react";
+import TeamsList from "../../components/TeamsList/TeamsList";
+import { getTeams } from '../../api/Api';
 
 const Teams = () => {
-    return <div>Teams</div>
-}
+  useEffect(() => {
+    getTeams();
+  },[])
+  return (
+    <div>
+      <TeamsList />
+    </div>
+  );
+};
 
-export default Teams
+export default Teams;
