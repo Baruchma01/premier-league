@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Teams from './containers/Teams/Teams';
-import TeamInfro from './containers/TeamInfo/TeamsInfo';
+import TeamInfo from './containers/TeamInfo/TeamInfo';
 import "./App.css";
 
 
@@ -10,7 +10,7 @@ function App() {
     <Router>
       <>
       <Route exact path="/" component={Teams} />
-      <Route exact path="/teams/:id" component={TeamInfro} />
+      <Route exact path="/teams/:id" component={TeamInfo} />
       </>
     </Router>
   );

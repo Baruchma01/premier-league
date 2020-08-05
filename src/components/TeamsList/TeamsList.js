@@ -4,8 +4,8 @@ import styled from "styled-components";
 const Table = styled.table`
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
-  margin-top: 10rem;
+  width: 80%;
+  margin: 0 auto;
 `;
 
 const Td = styled.td`
@@ -17,6 +17,7 @@ const Td = styled.td`
 const Th = Td;
 
 const Tr = styled.tr`
+  cursor: pointer;
   &:nth-child(even) {
     background-color: #dddddd;
   }
@@ -38,7 +39,10 @@ const TeamsList = ({ teams, rowClickHandler }) => {
       </Thead>
       <Tbody>
         {teams.map((team) => (
-          <Tr key={team.team_key} onClick={() => rowClickHandler(team.team_key)}>
+          <Tr
+            key={team.team_key}
+            onClick={() => rowClickHandler(team.team_key)}
+          >
             <Td>{team.team_name}</Td>
             <Td>{team.founded}</Td>
             <Td>{team.city}</Td>

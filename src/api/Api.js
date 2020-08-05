@@ -5,13 +5,13 @@ import teams from './teams.json';
       return teamsList;
   }
 
-  const getPlayers = (id) => {
-    const players = teams.filter((team) => Number(team.team_key) === id).map(({players}) => ({players}));
-    return players;
+  const getTeamInfo = (id) => {
+    const team = teams.find((team) => team.team_key === id);
+    return team;
   }
   
   
   export {
     getTeams,
-    getPlayers
+    getTeamInfo
   }
