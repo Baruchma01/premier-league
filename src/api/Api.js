@@ -1,23 +1,17 @@
 import teams from './teams.json';
 
-// const search = (searchkey) => {
-//     console.log('Search Data : ', searchkey);
-//     const videos = videosData.filter((item) => item.name.toLowerCase().includes(searchkey.toLowerCase()));
-//     console.log('videos', videos);
-//     return videos
-//   }
-
   const getTeams = () => {
-      let teams = []
-      teams.map((item => {
-          teams = [{
-              name: item.name
-          }]
-      }))
-      console.log(teams);
+      const teamsList = teams.map(({ team_key, team_name, founded, city }) => ({ team_key, team_name, founded, city }));
+      return teamsList;
+  }
+
+  const getPlayers = (id) => {
+    const players = teams.filter((team) => Number(team.team_key) === id).map(({players}) => ({players}));
+    return players;
   }
   
   
   export {
-    getTeams
+    getTeams,
+    getPlayers
   }
