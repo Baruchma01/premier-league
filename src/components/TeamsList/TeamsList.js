@@ -26,7 +26,7 @@ const Thead = styled.thead``;
 
 const Tbody = styled.tbody``;
 
-const TeamsList = ({ teams }) => {
+const TeamsList = ({ teams, rowClickHandler }) => {
   return (
     <Table>
       <Thead>
@@ -37,11 +37,13 @@ const TeamsList = ({ teams }) => {
         </Tr>
       </Thead>
       <Tbody>
-        {teams.map(team => <Tr key={team.team_key}>
-        <Td>{team.team_name}</Td>
-        <Td>{team.founded}</Td>
-        <Td>{team.city}</Td>
-        </Tr>)}
+        {teams.map((team) => (
+          <Tr key={team.team_key} onClick={() => rowClickHandler(team.team_key)}>
+            <Td>{team.team_name}</Td>
+            <Td>{team.founded}</Td>
+            <Td>{team.city}</Td>
+          </Tr>
+        ))}
       </Tbody>
     </Table>
   );
