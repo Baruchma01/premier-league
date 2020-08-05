@@ -5,6 +5,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2611_leicester.png",
         "founded": "1884; 136 years ago (as Leicester Fosse FC)",
         "city": "Leicester",
+        "site": "https://www.lcfc.com",
         "players": [
             {
                 "player_key": 140150332,
@@ -309,6 +310,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2612_everton.png",
         "founded": "1878; 142 years ago",
         "city": "Liverpool",
+        "site": "https://www.evertonfc.com/",
         "players": [
             {
                 "player_key": 2528777291,
@@ -613,6 +615,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2613_brighton.png",
         "founded":"24 June 1901; 119 years ago",
         "city": "Brighton",
+        "site": "https://www.brightonandhovealbion.com",
         "players": [
             {
                 "player_key": 3548455389,
@@ -905,6 +908,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2614_southampton.png",
         "founded":"21 November 1885; 134 years ago as St. Mary's Y.M.A",
         "city": "Southampton",
+        "site": "https://www.southamptonfc.com/",
         "players": [
             {
                 "player_key": 2314658634,
@@ -1185,6 +1189,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2615_bournemouth.png",
         "founded":"1899; 121 years ago (as Boscombe)",
         "city": "Bournemouth",
+        "site":"https://www.afcb.co.uk",
         "players": [
             {
                 "player_key": 1346472298,
@@ -1501,6 +1506,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2616_chelsea.png",
         "founded": "10 March 1905; 115 years ago",
         "city":"London",
+        "site":"https://www.chelseafc.com/en",
         "players": [
             {
                 "player_key": 3440253915,
@@ -1829,6 +1835,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2617_arsenal.png",
         "founded":"October 1886; 133 years ago as Dial Square[1]",
         "city": "North London",
+        "site":"https://www.arsenal.com/",
         "players": [
             {
                 "player_key": 4223091532,
@@ -2169,6 +2176,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2619_crystal-palace.png",
         "founded":"10 September 1905; 114 years ago",
         "city":"West London",
+        "site":"https://www.cpfc.co.uk/",
         "players": [
             {
                 "player_key": 68885335,
@@ -2461,6 +2469,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2620_west-ham.png",
         "founded": "29 June 1895; 125 years ago, as Thames Ironworks",
         "city":"London",
+        "site":"https://www.whufc.com/",
         "players": [
             {
                 "player_key": 3739480281,
@@ -2777,6 +2786,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2621_liverpool.png",
         "founded":"3 June 1892; 128 years ago",
         "city":"Liverpool",
+        "site":"https://www.liverpoolfc.com",
         "players": [
             {
                 "player_key": 2528777291,
@@ -3081,6 +3091,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2623_watford.png",
         "founded":"1881; 139 years ago (As Watford Rovers); 1898; 122 years ago (amalgamation of West Herts and Watford St. Mary’s)",
         "city": "Watford",
+        "site": "https://www.watfordfc.com/",
         "players": [
             {
                 "player_key": 2989701527,
@@ -3397,6 +3408,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2626_manchester-city.png",
         "founded":"1880; 140 years ago as St. Mark's (West Gorton) 16 April 1894; 126 years ago as Manchester City[2]",
         "city": "Manchester",
+        "site": "https://www.mancity.com/",
         "players": [
             {
                 "player_key": 827225519,
@@ -3689,6 +3701,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2627_manchester-united.png",
         "founded": "1878; 142 years ago, as Newton Heath LYR F.C. 1902; 118 years ago, as Manchester United F.C.",
         "city":"Manchester",
+        "site": "https://www.manutd.com/",
         "players": [
             {
                 "player_key": 4213229590,
@@ -4029,6 +4042,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2628_tottenham.png",
         "founded": "5 September 1882; 137 years ago, as Hotspur F.C.",
         "city": "London",
+        "site": "https://www.tottenhamhotspur.com/",
         "players": [
             {
                 "player_key": 2595681796,
@@ -4333,6 +4347,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2629_burnley.png",
         "founded":"18 May 1882; 138 years ago",
         "city": "Burnley",
+        "site": "https://www.burnleyfootballclub.com/",
         "players": [
             {
                 "player_key": 420565042,
@@ -4577,6 +4592,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2630_newcastle.png",
         "founded":"9 December 1892; 127 years ago",
         "city":"Newcastle",
+        "site": "https://www.nufc.co.uk/",
         "players": [],
         "coaches": []
     },
@@ -4586,6 +4602,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2632_aston-villa.png",
         "founded":"21 November 1874; 145 years ago[1]",
         "city":"Birmingham",
+        "site": "https://www.avfc.co.uk/",
         "players": [
             {
                 "player_key": 3505888955,
@@ -4902,6 +4919,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2641_norwich.png",
         "founded":"17 June 1902; 118 years ago",
         "city":"Norwich",
+        "site": "https://www.canaries.co.uk/",
         "players": [
             {
                 "player_key": 2524662047,
@@ -5218,6 +5236,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2646_wolves.png",
         "founded": "1877; 143 years ago, as St. Luke's F.C.",
         "city":"Wolverhampton",
+        "site": "https://www.wolves.co.uk/",
         "players": [
             {
                 "player_key": 186925331,
@@ -5450,6 +5469,7 @@
         "team_badge": "https://apiv2.apifootball.com/badges/2654_sheffield-utd.png",
         "founded":"22 March 1889; 131 years ago",
         "city":"Sheffield",
+        "site": "https://www.sufc.co.uk/",
         "players": [
             {
                 "player_key": 84802470,

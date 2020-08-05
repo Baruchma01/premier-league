@@ -29,6 +29,9 @@ const Table = styled.table`
 border-collapse: collapse;
 width: 100%;
 `
+const H4 = styled.h4`
+margin-bottom: 0;
+`;
 const Th = styled.th`
 padding: 8px;
 text-align: left;
@@ -36,8 +39,8 @@ border-bottom: 1px solid #ddd;
 `
 const Td = Th;
 
+
 const TeamPage = ({ teamInfo }) => {
-  console.log(teamInfo);
   return (
     <Container>
       <Title>
@@ -52,9 +55,9 @@ const TeamPage = ({ teamInfo }) => {
         />
       </Title>
       <Info>
-        <h4>Founded: {teamInfo.founded} </h4>
-        <h4>WebSite: blblbl </h4>
+        <H4>Founded: {teamInfo.founded} </H4>
         <h4>Address: {teamInfo.team_name} </h4>
+        {teamInfo.site ? <a href={teamInfo.site}> {`${teamInfo.team_name} WebSite`} </a>: <p>No Site</p> }
       </Info>
       <Table>
         <thead>
