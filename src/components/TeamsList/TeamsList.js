@@ -18,9 +18,7 @@ const Th = Td;
 
 const Tr = styled.tr`
   cursor: pointer;
-  &:nth-child(even) {
-    background-color: #dddddd;
-  }
+
 `;
 
 const Thead = styled.thead``;
