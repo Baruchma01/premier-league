@@ -2,10 +2,19 @@ import React from "react";
 import styled from "styled-components";
 
 const Table = styled.table`
-  font-family: 'Red Rose', cursive;
+  font-family: "Red Rose", cursive;
   border-collapse: collapse;
   max-width: 800px;
   margin: 0 auto;
+`;
+
+const Tbody = styled.tbody`
+& > tr {
+  &:hover {
+    background-color: #00225c;
+    color: white;
+  }
+}
 `;
 
 const Td = styled.td`
@@ -14,16 +23,18 @@ const Td = styled.td`
   padding: 8px;
 `;
 
-const Th = Td;
+const Th = styled.th`
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+`;
 
 const Tr = styled.tr`
   cursor: pointer;
-
 `;
 
 const Thead = styled.thead``;
 
-const Tbody = styled.tbody``;
 
 const TeamsList = ({ teams, rowClickHandler }) => {
   return (
