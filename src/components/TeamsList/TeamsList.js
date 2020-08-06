@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 const Table = styled.table`
-  font-family: arial, sans-serif;
+  font-family: 'Red Rose', cursive;
   border-collapse: collapse;
-  width: 80%;
+  max-width: 800px;
   margin: 0 auto;
 `;
 
