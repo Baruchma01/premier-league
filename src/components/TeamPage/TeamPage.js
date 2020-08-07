@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 `;
 const Title = styled.div`

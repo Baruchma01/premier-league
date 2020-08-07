@@ -19,7 +19,7 @@ const Header = () => (
       backgroundSize: "75px",
     }}
   >
-    Premier Legue
+    Premier League
   </HeaderDiv>
 );
 

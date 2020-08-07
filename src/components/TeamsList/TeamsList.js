@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Table = styled.table`
   font-family: "Red Rose", cursive;
   border-collapse: collapse;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 `;
 
