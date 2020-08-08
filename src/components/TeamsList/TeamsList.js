@@ -53,7 +53,7 @@ const TeamsList = ({ teams, rowClickHandler }) => {
             onClick={() => rowClickHandler(team.team_key)}
           >
             <Td>{team.team_name}</Td>
-            <Td>{team.founded}</Td>
+            <Td>{team.founded.replace(';', ',')}</Td>
             <Td>{team.city}</Td>
           </Tr>
         ))}

@@ -9,7 +9,6 @@ const HeaderDiv = styled.header`
   align-items: center;
   margin: auto;
   margin-bottom: 1rem;
-  width: 100%;
 `;
 
 const Header = () => (

@@ -55,7 +55,7 @@ const TeamPage = ({ teamInfo }) => {
         />
       </Title>
       <Info>
-        <H4>Founded: {teamInfo.founded} </H4>
+        <H4>Founded: {teamInfo.founded?.replace(';', ',')} </H4>
         <h4>Address: {teamInfo.team_name} </h4>
         {teamInfo.site ? <a href={teamInfo.site}> {`${teamInfo.team_name} WebSite`} </a>: <p>No Site</p> }
       </Info>
