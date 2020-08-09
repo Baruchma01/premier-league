@@ -9,12 +9,12 @@ const Table = styled.table`
 `;
 
 const Tbody = styled.tbody`
-& > tr {
-  &:hover {
-    background-color: #00225c;
-    color: white;
+  & > tr {
+    &:hover {
+      background-color: #00225c;
+      color: white;
+    }
   }
-}
 `;
 
 const Td = styled.td`
@@ -35,7 +35,6 @@ const Tr = styled.tr`
 
 const Thead = styled.thead``;
 
-
 const TeamsList = ({ teams, rowClickHandler }) => {
   return (
     <Table>
@@ -53,7 +52,7 @@ const TeamsList = ({ teams, rowClickHandler }) => {
             onClick={() => rowClickHandler(team.team_key)}
           >
             <Td>{team.team_name}</Td>
-            <Td>{team.founded.replace(';', ',')}</Td>
+            <Td>{team.founded.replace(";", ",")}</Td>
             <Td>{team.city}</Td>
           </Tr>
         ))}

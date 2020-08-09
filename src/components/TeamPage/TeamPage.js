@@ -39,19 +39,20 @@ border-bottom: 1px solid #ddd;
 `
 const Td = Th;
 
+const Img = styled.img`
+width: 48px;
+height: 48px;
+`;
+
 
 const TeamPage = ({ teamInfo }) => {
   return (
     <Container>
       <Title>
         <H1>{teamInfo.team_name}</H1>
-        <img
+        <Img
           src={teamInfo.team_badge}
           alt="logo"
-          style={{
-            width: "48px",
-            height: "48px",
-          }}
         />
       </Title>
       <Info>
